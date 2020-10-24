@@ -1,17 +1,10 @@
 { 
     "admin": [
         {
-            "username": "Admin Dev",
-            "email": "admin@dev.com",
-            "password": "123456",
+            "username": "Administrator",
+            "email": "admin@user.com",
+            "password": "12345",
             "role": "0",
-            "active": true
-        },
-        {
-            "username": "Alex Senn",
-            "email": "alexsenn422@gmail.com",
-            "password": "123456",
-            "role": "1",
             "active": true
         }
     ],
