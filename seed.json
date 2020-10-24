@@ -1,0 +1,39 @@
+{ 
+    "admin": [
+        {
+            "username": "Admin Dev",
+            "email": "admin@dev.com",
+            "password": "123456",
+            "role": "0",
+            "active": true
+        },
+        {
+            "username": "Alex Senn",
+            "email": "alexsenn422@gmail.com",
+            "password": "123456",
+            "role": "1",
+            "active": true
+        }
+    ],
+    "roles": [
+        { "name": "Administrator", "index": "1" },
+        { "name": "Senior Manager", "index": "2" },
+        { "name": "Logistics", "index": "3" },
+        { "name": "Team Leader", "index": "4" },
+        { "name": "Office Director", "index": "5" },
+        { "name": "Campaign Director", "index": "6" }
+    ],
+    "methods": [
+        {"name": "Street", "index": "0"},
+        {"name": "Table", "index": "1"},
+        {"name": "Private Site", "index": "2"},
+        {"name": "Door To Door", "index": "3"}
+    ],
+    "genders": [
+        {"name": "Male", "index": "0"},
+        {"name": "Female", "index": "1"},
+        {"name": "Other", "index": "2"},
+        {"name": "Prefer not to Answer", "index": "3"}    
+    ],
+    "seed": [{"flag": true}]
+}

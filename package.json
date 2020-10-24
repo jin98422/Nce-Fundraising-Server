@@ -1,0 +1,35 @@
+{
+  "name": "nce-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.4",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cybersource-rest-client": "0.0.19",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "jimp": "^0.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwk-to-pem": "^2.0.4",
+    "mongoose": "^5.9.22",
+    "multer": "^1.4.2",
+    "nodemailer": "^2.6.4",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "path": "^0.12.7",
+    "twilio": "^3.48.2",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
